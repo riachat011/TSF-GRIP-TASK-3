@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+  box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.navbar .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(189, 214, 214);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 80px;
+  }
+  
+.navbar .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #5e5d5d;
+    display: block;
+    transition: 0.3s;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  
+.navbar .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .navbar .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 10px 16px;
+    color: rgb(116, 109, 116);
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+.navbar{
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgb(233, 213, 233);
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 6px 8px;
+	display: inline-block;
+	line-height: 20px;
+}
+.navbar ul li a{
+	font-size: 15px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: rgb(7, 7, 7);
+	padding: 6px 12px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active
+{
+    background-color: rgb(238, 199, 208);
+    border-radius: 1px;
+}
+.navbar ul li a:hover{
+	background: rgb(207, 173, 173);
+	border-radius: 1px;
+}
+
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+body{
+    margin: 60px;
+    padding: 0;
+    background: url(contactbg.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .box{
+    width: 850px;
+    height: 550px;
+    background: rgb(241, 229, 233);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: rgba(37, 32, 32, 0.671);
+    font-family:"sans-serif";
+    border-radius: 10px;
+  }
+  .box-img{
+    border-radius: 10%;
+    width: 240px;
+    height: 220px;
+  }
+  .box h1{
+    color: rgb(77, 47, 77);
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 140;
+    font-family: "Comic Sans MS", cursive, sans-serif ;
+  }
+  ul{
+    margin: 4px;
+    padding: 6px;
+  }
+  .box ul{
+    margin: 10px;
+    padding: 20px;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color:rgb(167, 148, 164);
+    text-decoration: none;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size: 50px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: rgb(240, 140, 182);
+  }
